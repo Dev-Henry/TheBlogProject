@@ -23,11 +23,11 @@ namespace TheBlogProject.Models
         public string Description { get; set; }
         
         [DataType(DataType.Date)]
-        [Display(Name = "Created")]
+        [Display(Name = "Created Date")]
         public DateTime Created { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Created")]
+        [Display(Name = "Updated Date")]
         public DateTime? Updated { get; set; }
 
         [Display(Name = "Blog Image")]
@@ -40,6 +40,7 @@ namespace TheBlogProject.Models
         public IFormFile Image { get; set; }
 
         //navigation property
+        [Display(Name ="Author")]
         public virtual BlogUser BlogUser { get; set; }
         public virtual ICollection<Post> Post { get; set; } = new HashSet<Post>();
 
