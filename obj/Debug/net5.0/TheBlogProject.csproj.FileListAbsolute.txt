@@ -103,7 +103,6 @@ C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\zh-Hans\Mi
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.csproj.AssemblyReference.cache
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.AssemblyInfoInputs.cache
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.AssemblyInfo.cs
@@ -193,3 +192,4 @@ C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogPro
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\ref\TheBlogProject.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.pdb
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.genruntimeconfig.cache
+C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.csproj.AssemblyReference.cache
