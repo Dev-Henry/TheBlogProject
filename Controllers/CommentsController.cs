@@ -67,17 +67,19 @@ namespace TheBlogProject.Controllers
         }
 
         // GET: Comments/Create
-        public IActionResult Create()
-        {
-            ViewData["BlogUserId"] = new SelectList(_context.Users, "Id", "Id");
-            ViewData["ModeratorId"] = new SelectList(_context.Users, "Id", "Id");
-            ViewData["PostId"] = new SelectList(_context.Posts, "Id", "Abstract");
-            return View();
-        }
+        //public IActionResult Create()
+        //{
+        //    ViewData["BlogUserId"] = new SelectList(_context.Users, "Id", "Id");
+        //    ViewData["ModeratorId"] = new SelectList(_context.Users, "Id", "Id");
+        //    ViewData["PostId"] = new SelectList(_context.Posts, "Id", "Abstract");
+        //    return View();
+        //}
 
         // POST: Comments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,PostId,BlogUserId,ModeratorId,Body,Created,Updated,Moderated,Deleted,ModeratedBody,ModerationType")] Comment comment)
@@ -88,9 +90,7 @@ namespace TheBlogProject.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BlogUserId"] = new SelectList(_context.Users, "Id", "Id", comment.BlogUserId);
-            ViewData["ModeratorId"] = new SelectList(_context.Users, "Id", "Id", comment.ModeratorId);
-            ViewData["PostId"] = new SelectList(_context.Posts, "Id", "Abstract", comment.PostId);
+            
             return View(comment);
         }
 
