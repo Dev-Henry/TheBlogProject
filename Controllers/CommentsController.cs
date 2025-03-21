@@ -39,31 +39,10 @@ namespace TheBlogProject.Controllers
         //Use soft delete boolean
         //}
 
-        //public async Task<IActionResult> Index()
-        //{
-        //    var applicationdbcontext = _context.comments.include(c => c.bloguser).include(c => c.moderator).include(c => c.post);
-        //    return view(await applicationdbcontext.tolistasync());
-        //}
-
-        // GET: Comments/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Index()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var comment = await _context.Comments
-                .Include(c => c.BlogUser)
-                .Include(c => c.Moderator)
-                .Include(c => c.Post)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (comment == null)
-            {
-                return NotFound();
-            }
-
-            return View(comment);
+            var allComments = await _context.Comments.ToListAsync();
+            return View(allComments);
         }
 
         // GET: Comments/Create
@@ -73,7 +52,7 @@ namespace TheBlogProject.Controllers
         //    ViewData["ModeratorId"] = new SelectList(_context.Users, "Id", "Id");
         //    ViewData["PostId"] = new SelectList(_context.Posts, "Id", "Abstract");
         //    return View();
-        //}
+        //} 
 
         // POST: Comments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 

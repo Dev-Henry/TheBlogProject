@@ -163,7 +163,6 @@ C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\View
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Blogs\Index.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Create.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Delete.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Details.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Edit.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Index.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
@@ -177,11 +176,6 @@ C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\View
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Tags\Create.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Tags\Delete.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Tags\Details.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Tags\Edit.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Tags\Index.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.RazorTargetAssemblyInfo.cache
@@ -193,3 +187,5 @@ C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\ref\TheBlo
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.pdb
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.genruntimeconfig.cache
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
