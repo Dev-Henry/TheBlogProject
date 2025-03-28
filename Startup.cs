@@ -13,6 +13,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using TheBlogProject.Data;
 using TheBlogProject.Models;
+using TheBlogProject.Services;
+using TheBlogProject.Solution;
+using TheBlogProject.ViewModels;
 
 namespace TheBlogProject
 {
@@ -28,16 +31,11 @@ namespace TheBlogProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           // services.AddDbContext<ApplicationDbContext>(options =>
-             //   options.UseSqlServer(
-               //     Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-            //  .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddIdentity<BlogUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddDefaultUI()
@@ -46,9 +44,18 @@ namespace TheBlogProject
             services.AddControllersWithViews();
 
             services.AddRazorPages();
+
+
+            //register my custom DataService class
+            services.AddScoped<DataService>();
+
+            //register a pre configured instance of the mail settings class
+            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
+            services.AddScoped<IBlogEmailSender, EmailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        [Obsolete]
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

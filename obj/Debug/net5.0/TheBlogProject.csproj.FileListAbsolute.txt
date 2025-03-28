@@ -11,6 +11,7 @@ C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\TheBlogPro
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\TheBlogProject.Views.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\TheBlogProject.Views.pdb
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\MailKit.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -40,9 +41,11 @@ C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\MimeKit.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Npgsql.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\System.Composition.Convention.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -165,6 +168,8 @@ C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\View
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Delete.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Edit.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Comments\Index.cshtml.g.cs
+C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Posts\Create.cshtml.g.cs
@@ -186,6 +191,3 @@ C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogPro
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\ref\TheBlogProject.dll
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.pdb
 C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.genruntimeconfig.cache
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\TheBlogProject.csproj.AssemblyReference.cache
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\Administrator\Documents\code\TheBlogProject\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
